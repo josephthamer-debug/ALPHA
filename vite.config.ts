@@ -5,7 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/APLHA-LAB/',
+    base: '/APLHA/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
