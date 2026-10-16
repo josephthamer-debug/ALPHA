@@ -10,6 +10,7 @@ import {
   Sparkles,
   CheckCircle2,
 } from 'lucide-react';
+import { getAssetPath } from '../utils/assets';
 
 interface ScreenshotGalleryProps {
   onOpenDemo: () => void;
@@ -181,7 +182,7 @@ export const ScreenshotGallery: React.FC<ScreenshotGalleryProps> = ({ onOpenDemo
                 {/* Frame Container for original screenshot */}
                 <div className="relative aspect-16/10 bg-[#0B0F17] overflow-hidden border-b border-slate-200 flex items-center justify-center p-1">
                   <img
-                    src={item.image}
+                    src={getAssetPath(item.image)}
                     alt={item.title}
                     className="w-full h-full object-contain select-none transition-transform duration-300 group-hover:scale-[1.02]"
                     referrerPolicy="no-referrer"
@@ -309,7 +310,7 @@ export const ScreenshotGallery: React.FC<ScreenshotGalleryProps> = ({ onOpenDemo
                 }`}
               >
                 <img
-                  src={activeItem.image}
+                  src={getAssetPath(activeItem.image)}
                   alt={activeItem.title}
                   className="w-full h-auto max-h-[68vh] object-contain select-none"
                   referrerPolicy="no-referrer"

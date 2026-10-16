@@ -286,7 +286,7 @@ export const translations = {
           id: "dashboard",
           category: "finance",
           categoryLabel: "Dashboard",
-          image: "/images/a2.png",
+          image: "./images/a2.png",
           title: "Financial and Operational Dashboard",
           description:
             "A comprehensive overview of the laboratory's financial and operational indicators.",
@@ -300,7 +300,7 @@ export const translations = {
           id: "invoice",
           category: "cases",
           categoryLabel: "Invoices",
-          image: "/images/a3.png",
+          image: "./images/a3.png",
           title: "Invoice Registration",
           description:
             "A dedicated interface for registering invoices and organizing their details.",
@@ -314,7 +314,7 @@ export const translations = {
           id: "doctors",
           category: "finance",
           categoryLabel: "Doctors",
-          image: "/images/a4.png",
+          image: "./images/a4.png",
           title: "Doctors' Accounts and Cases Statement",
           description:
             "Review doctors' account statements and their associated cases.",
@@ -328,7 +328,7 @@ export const translations = {
           id: "technicians",
           category: "technicians",
           categoryLabel: "Team",
-          image: "/images/a5.png",
+          image: "./images/a5.png",
           title: "Technicians and Laboratory Team",
           description:
             "Manage and review technicians and laboratory team information in an organized interface.",
@@ -342,7 +342,7 @@ export const translations = {
           id: "statements",
           category: "finance",
           categoryLabel: "Statements",
-          image: "/images/a6.png",
+          image: "./images/a6.png",
           title: "Account Statements and Report Printing",
           description:
             "Review account statements and prepare reports for printing.",
@@ -356,7 +356,7 @@ export const translations = {
           id: "analytics",
           category: "analytics",
           categoryLabel: "Analytics",
-          image: "/images/a7.png",
+          image: "./images/a7.png",
           title: "Statistics and Analytics",
           description:
             "Explore laboratory statistics and analytics to better understand operational performance.",
@@ -799,7 +799,7 @@ export const translations = {
           id: "dashboard",
           category: "finance",
           categoryLabel: "لوحة المؤشرات",
-          image: "/images/a2.png",
+          image: "./images/a2.png",
           title: "لوحة المؤشرات والتحليلات المالية والتشغيلية",
           description:
             "نظرة شاملة على المؤشرات المالية والتشغيلية للمختبر.",
@@ -813,7 +813,7 @@ export const translations = {
           id: "invoice",
           category: "cases",
           categoryLabel: "تسجيل الفواتير",
-          image: "/images/a3.png",
+          image: "./images/a3.png",
           title: "نافذة تسجيل فاتورة",
           description:
             "واجهة مخصصة لتسجيل الفواتير وتنظيم بياناتها.",
@@ -827,7 +827,7 @@ export const translations = {
           id: "doctors",
           category: "finance",
           categoryLabel: "حسابات الأطباء",
-          image: "/images/a4.png",
+          image: "./images/a4.png",
           title: "نافذة كشف حساب الأطباء والحالات",
           description:
             "عرض ومراجعة حسابات الأطباء والحالات المرتبطة بها.",
@@ -841,7 +841,7 @@ export const translations = {
           id: "technicians",
           category: "technicians",
           categoryLabel: "فريق المختبر",
-          image: "/images/a5.png",
+          image: "./images/a5.png",
           title: "قائمة متابعة الفنيين وكادر المختبر",
           description:
             "متابعة الفنيين وكادر المختبر ضمن واجهة منظمة.",
@@ -855,7 +855,7 @@ export const translations = {
           id: "statements",
           category: "finance",
           categoryLabel: "الكشوفات والطباعة",
-          image: "/images/a6.png",
+          image: "./images/a6.png",
           title: "كشوفات الحسابات وطباعة التقارير",
           description:
             "عرض كشوفات الحسابات وتجهيز التقارير للطباعة.",
@@ -869,7 +869,7 @@ export const translations = {
           id: "analytics",
           category: "analytics",
           categoryLabel: "الإحصاءات والتحليلات",
-          image: "/images/a7.png",
+          image: "./images/a7.png",
           title: "قائمة الإحصاءات والتحليلات",
           description:
             "عرض الإحصاءات والتحليلات للمساعدة في فهم أداء المختبر.",

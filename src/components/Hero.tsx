@@ -83,7 +83,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenDemo }) => {
           {/* Original Uncropped Image a1 */}
           <div className="w-full bg-[#0B0F17] flex items-center justify-center p-0">
             <img
-              src="/images/a1.png"
+              src="./images/a1.png"
               alt={
                 isRTL
                   ? 'واجهة نظام ألفا لاب الرئيسية لإدارة مختبر صناعة الأسنان'

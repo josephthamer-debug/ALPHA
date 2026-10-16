@@ -41,7 +41,7 @@ export const AlphaLogo: React.FC<AlphaLogoProps> = ({
       {/* Alpha Lab Logo - Image aa */}
       <div className={`${iconSizes[size]} shrink-0 flex items-center justify-center`}>
         <img
-          src="/images/aa.png"
+          src="./images/aa.png"
           alt={isRTL ? 'شعار ألفا لاب' : 'Alpha Lab Logo'}
           className="w-full h-full object-contain"
           referrerPolicy="no-referrer"
